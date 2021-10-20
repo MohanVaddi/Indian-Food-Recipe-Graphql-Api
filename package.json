@@ -1,0 +1,24 @@
+{
+    "name": "graphql-with-mongo-benawad",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.13",
+        "@babel/cli": "^7.15.7",
+        "@babel/core": "^7.15.8",
+        "@babel/node": "^7.15.8",
+        "@babel/preset-env": "^7.15.8"
+    },
+    "dependencies": {
+        "apollo-server-express": "^3.4.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "graphql": "^15.6.1",
+        "mongoose": "^6.0.11"
+    }
+}
