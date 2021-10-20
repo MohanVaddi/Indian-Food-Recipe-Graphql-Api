@@ -5,6 +5,7 @@ import { typeDefs } from './typedefs.js';
 import { resolvers } from './resolvers.js';
 import dotenv from 'dotenv';
 dotenv.config();
+const port = process.env.PORT || 4000;
 
 const connectToMongo = async () => {
     try {
@@ -26,8 +27,8 @@ const startServer = async () => {
     app.get('/', (req, res) => {
         res.redirect('/graphql');
     });
-    app.listen({ port: 4000 }, async () => {
-        console.log(`Now browse to http://localhost:4000${server.graphqlPath}`);
+    app.listen({ port }, async () => {
+        console.log(`Now browse to ${server.graphqlPath}`);
     });
 };
 startServer();
