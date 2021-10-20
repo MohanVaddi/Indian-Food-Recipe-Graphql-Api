@@ -18,7 +18,11 @@ const connectToMongo = async () => {
 };
 
 const startServer = async () => {
-    const server = new ApolloServer({ typeDefs, resolvers });
+    const server = new ApolloServer({
+        typeDefs,
+        resolvers,
+        introspection: true,
+    });
     const app = express();
     await server.start();
     await connectToMongo();
