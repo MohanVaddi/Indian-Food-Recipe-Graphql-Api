@@ -4,6 +4,8 @@
 - API Endpoint: ```https://indian-food-recipe-graphql-api.herokuapp.com/graphql``` 
 - Try Quering the API at [Explorer](https://studio.apollographql.com/public/indian-food-recipe-api/explorer?variant=current)
 
+<p align='center'>
+<img src='https://github.com/MohanVaddi/Indian-Food-Recipe-Graphql-Api/blob/main/graph-explorer.gif' width='600px'/> </p>
 <!-- 
 ### Note:
 - Use this Endpoint Url: ```https://indian-food-recipe-graphql-api.herokuapp.com/graphql``` in the [Sandbox Explorer](https://studio.apollographql.com/sandbox/explorer) to Query this graph. () -->
@@ -11,7 +13,6 @@
 
 ## Accessing the graph:
 - You can send queries to this graph at [API Endpoint](https://indian-food-recipe-graphql-api.herokuapp.com/graphql)
-- 
 
 ## Graph Schema :
 ```js
