@@ -1,15 +1,17 @@
 
-# Indian Food Recipe API
+# [Indian Food Recipe API](https://studio.apollographql.com/public/indian-food-recipe-api/explorer?variant=current)
 - This API contains over 6500 recipes from all around India.
-- API Endpoint: https://indian-food-recipe-graphql-api.herokuapp.com/graphql 
+- API Endpoint: ```https://indian-food-recipe-graphql-api.herokuapp.com/graphql``` 
+- Try Quering the API at [Explorer](https://studio.apollographql.com/public/indian-food-recipe-api/explorer?variant=current)
 
-## Apollo Studio Sandbox:
-- Try Quering this graph in the [Sandbox Explorer](https://studio.apollographql.com/sandbox/explorer) 
-- Use this Endpoint Url: ```https://indian-food-recipe-graphql-api.herokuapp.com/graphql``` in the [Sandbox Explorer](https://studio.apollographql.com/sandbox/explorer) to Query this graph.
+<!-- 
+### Note:
+- Use this Endpoint Url: ```https://indian-food-recipe-graphql-api.herokuapp.com/graphql``` in the [Sandbox Explorer](https://studio.apollographql.com/sandbox/explorer) to Query this graph. () -->
 
 
 ## Accessing the graph:
-- You can send operations to this graph at [API Endpoint](https://indian-food-recipe-graphql-api.herokuapp.com/graphql)
+- You can send queries to this graph at [API Endpoint](https://indian-food-recipe-graphql-api.herokuapp.com/graphql)
+- 
 
 ## Graph Schema :
 ```js
